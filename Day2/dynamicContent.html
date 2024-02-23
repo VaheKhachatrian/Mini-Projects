@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Product Listing</title>
+<style>
+</style>
+</head>
+<body>
+
+<div id="filters">
+  <label for="category">Category:</label>
+  <select id="category">
+    <option value="">All</option>
+    <option value="Home">Home</option>
+    <option value="Apparel">Apparel</option>
+    <option value="Electronics">Electronics</option>
+  </select>
+  
+  <label>Tags:</label>
+  <input type="checkbox" id="ecoFriendly" value="eco-friendly">
+  <label for="ecoFriendly">Eco-friendly</label>
+  <input type="checkbox" id="new" value="new">
+  <label for="new">New</label>
+  <input type="checkbox" id="sale" value="sale">
+  <label for="sale">Sale</label>
+</div>
+
+<div id="products"></div>
+
+<script src="dynamicContent.js"></script>
+
+</body>
+</html>
